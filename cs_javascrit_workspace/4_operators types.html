@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operators</title>
+</head>
+<body>
+operators types  <hr>
+1. arithmetic operators (+-*/ ++ --) <br>
+2. comparsion operators <br>
+3. logical operators <br>
+4. bitwise <br>
+5.assignment <br>
+6.ternary <br>
+
+7.type <br> <hr>
+
+
+    <script>
+ /* 1_ arithematic operators*/
+
+ let a=10
+ let b=25
+ console.log(a+b)
+ console.log(a-b)
+ console.log(a*b)
+ console.log(a/b)
+let c=20
+let d=10
+
+console.log(c)
+console.log(c++) /* post increment*/
+console.log(c)
+
+
+document.write (c ) 
+document.write ("<br>")
+document.write (c++ + "post incrementy")/* post increment*/
+document.write ("<br>")
+document.write (c)
+document.write ("<br>")
+
+console.log(d)
+console.log(++d) /* pre increment*/
+console.log(d)
+
+document.write (d)
+document.write ("<br>")
+document.write (++d + "pre incrementy") /* pre increment*/
+document.write ("<br>")
+document.write (d)
+document.write ("<br>")
+
+console.log(c)
+console.log(c--)/* post dicrement*/
+console.log(c)
+
+document.write (c)
+document.write ("<br>")
+document.write (c-- +"post dicrement")
+document.write ("<br>")
+document.write (c)
+document.write ("<br>")
+
+console.log(c)
+console.log(--c)/* pre dicrement*/
+console.log(c)
+
+document.write (d)
+document.write ("<br>")
+document.write (--d + "pre dicrement") /* pre dicrement*/
+document.write ("<br>")
+document.write (d)
+document.write ("<br>")
+
+
+/*2_ comparison opertors*/
+document.write ("<hr>")
+ let e= "2.comparision operators"
+document.write (e)
+
+/*let f=25;
+let g=30;
+console.log(f==g)
+console.log(f>g)
+console.log(f!=g)
+console.log(f<g)
+console.log(f>+g)
+console.log(f<=g)
+console.log(f===g) */
+
+let height = 175;
+if(height<=190){
+    console.log('neartome')}
+
+ else{
+console.log('it is not near to me');
+
+    }
+/*3_logical operators*/
+
+let log2=true;
+let log1=true;
+console.log(log2&&log1);
+
+let log3=true;
+let log4=false;
+console.log(log3&&log4);
+
+/*in logical operators AND && true=true true remaing all are false */
+
+
+/* in OR ||statement false =false - false remaning all statements are true */
+
+let or=false;
+let or1=false;
+console.log(or||or1);       
+
+let or2=true;
+let or3=false;
+console.log(or3||or2);       
+
+let or4=false;
+let or5=true;
+console.log(or5||or4);       
+
+/* !a NOT operator are  works as true= false , false= true*/
+
+ var q= false;
+  var w= true;
+ console.log(!w);
+ console.log(!q);
+
+ /* assignment operators  */
+ let ass=30;
+ let yes=20; 
+ let ap=30;
+ //ap=ap+ass+yes;//110
+//ap+=ass+yes//ap=110+30+50= 190
+ /*ass-=yes-ass;//30-(50-30)=-10
+ console.log(ass);
+ yes-=ap//50-30=20
+ console.log(yes);
+ ass*=ap;//50*30
+ console.log(ass);*/
+
+ ass <<=yes;
+ console.log(ass);
+
+
+ ap >>>=yes;
+ console.log(ap);
+
+ ap &=yes;
+ console.log(ap);
+
+ ap ^=yes;
+ console.log(ap);
+
+ ap **=yes;
+ console.log(ap);
+
+ 
+ ass &=yes;
+ console.log(ass);
+
+ /*ternary operatoe*/
+// conduction ? erpression1: expression2;//
+let ab=220;
+let ba=150;
+let ca=100;
+
+//let big= (ab>ca ? ab:ca) ;
+//console.log(big +':ca is bigger than ab')
+
+
+let big = (ab<ba ? true:false) ;
+console.log(big )
+
+let small = (ba>ca ? false:true);
+console.log(small);
+
+function gfg() { 
+    // JavaScript to illustrate
+    // multiple Conditional operators
+ 
+    let marks = 61;
+    let result = (marks < 40) ? "Unsatisfactory" :
+             (marks < 60) ? "Average" :
+             (marks < 80) ? "Good" : "Excellent" ;
+ 
+    console.log(result);
+    } 
+    gfg(); 
+
+// conduction ? erpression1: expression2;//
+//  ab>ba     ?  ab        :   ba//
+
+/* bit wise not more imp */
+
+/* type conversion*/
+// 1_ implement conversion
+//  2_ explicit conversiopn// 
+document.write("<br>");
+document.write(12+"4" );  //int and string converted into "string "//
+document.write("<br>");
+document.write(12-"4"); // int and string converted into "int"//
+document.write("<br>");
+
+let imp=parseInt("567h75gd"); // both int and string are mixed by using parseInt int will print // 
+document.write(imp); document.write("<br>");
+
+let imp1=parseFloat("56.445545gd"); //both int and string are mixed by using parseFloat  int will print decimal value(56.4445) also
+document.write(imp1);document.write("<br>");
+document.write("1phanindra" + "rajkumar");  document.write("<br>");
+
+ let st=89;
+document.write(typeof (st));
+
+var si = String(st);
+document.write(si);document.write("<br>");
+
+var v = 2255;
+document.write(typeof (v)); document.write("<br>"); 
+var s = String(v);//String(value)
+document.write(s);  document.write("<br>"); // value change into string but result in number only
+document.write(typeof (s));
+document.write("<br>");
+document.write("<br>");
+
+var vp = 1545;
+var saa = vp.toString();//variableName.toString(base) syn
+document.write("string :"+ saa + "<br>" + "<hr>"); //result string 
+
+var v = 123; // int form
+var de = new Date('1995-12-17T03:24:00');
+  
+// Conversion of number to string
+document.write(" String(v) = " + String(v) + "<br>"); 
+  
+// Conversion of number to string
+document.write(" String(v + 11) = " + String(v + 11) + "<br>");
+document.write(" String( 10 + 10) = " + String(10 + 10) + "<br>"); 
+document.write(typeof(v) + "<hr>");
+  
+// Conversion of boolean value to string
+document.write(" String(false) = " + String(false) + "<br>"); 
+  
+// Conversion of Date to string
+document.write(" String(de) = " + String(de) + "<br>"); 
+document.write(typeof(de) + "<hr>");
+
+var s = "144";document.write(typeof(s) + "<br>");
+var n = Number(s);
+document.write(n);
+document.write(typeof(n) + "<hr>");
+
+var vq = "144"; // string form
+document.write(typeof(vq) + "<br>");
+var dd = new Date('1995-12-17T03:24:00');
+  
+// Conversion of string to number
+document.write(" Number(vq) = " + Number(vq) + "<br>");
+ document.write(typeof + "<br>");  document.write( "<br>");
+  
+//Conversion of boolean value to number
+document.write(" Number(false) = " + Number(false) + typeof "<br>"); document.write( "<br>");
+document.write(" Number(true) = " + Number(true) + "<br>");
+  
+// Conversion of date to number
+document.write(" Number(dd) = " + Number(dd) + "<br>");
+document.write(typeof + "<hr>");
+
+
+
+</script>
+</body>
+</html>
