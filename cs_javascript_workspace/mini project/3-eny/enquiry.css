@@ -1,0 +1,31 @@
+*{
+    padding: 7px;
+    margin: 5px;
+}
+
+
+.raj{
+    font-size: 30px;
+    text-align: center;
+}
+.div{
+    text-align: center;
+    font-style: italic;
+    border: 5px solid pink;
+  
+}
+body{
+    text-align: center;
+    background-color: aqua;
+    border: 5px solid rgb(22, 202, 142);
+    font-style: italic;
+}
+.rajk{
+    font-size: 59px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+

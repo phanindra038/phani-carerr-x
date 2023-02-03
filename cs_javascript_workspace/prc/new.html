@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./new.css">
+</head>
+<body>
+    <div class="container" style="background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fimage&psig=AOvVaw2g9qo5aoa4lhempDi3hdG_&ust=1674319267634000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCOC0j7zL1vwCFQAAAAAdAAAAABAE)">
+        <form class="form-box" >
+          <h1>Registration Form</h1>
+          
+          <label for="firstname">First Name:</label>
+          <input type="text" id="firstname" name="firstname">
+          
+          <label for="lastname">Last Name:</label>
+          <input type="text" id="lastname" name="lastname">
+          
+          <label for="dob">Date of Birth:</label>
+          <select id="dob" name="dob">
+              <option value="">Select Date</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <!-- Add more options for the days -->
+          </select>
+          <select id="month" name="month">
+              <option value="">Select Month</option>
+              <option value="Jan">Jan</option>
+              <option value="Feb">Feb</option>
+              <!-- Add more options for the months -->
+          </select>
+          <select id="year" name="year">
+              <option value="">Select Year</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <!-- Add more options for the years -->
+          </select>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          
+          <label for="gender">Gender:</label>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label>
+          
+          <label for="phone">Phone number:</label>
+          <input type="tel" id="phone" name="phone">
+          
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password">
+          
+          <label for="confirm_password">Confirm Password:</label>
+          <input type="password" id="confirm_password" name="confirm_password">
+          
+          <label for="terms">
+            <input type="checkbox" id="terms" name="terms">I accept the terms and conditions
+          </label>
+          
+          <input type="submit" value="Register">
+        </form>
+      </div>
+      
+</body>
+</html>

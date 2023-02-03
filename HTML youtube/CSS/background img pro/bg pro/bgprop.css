@@ -1,0 +1,25 @@
+
+    body{
+      /*  background-image:url(./nat1.jpg.jpg);
+        color: aquamarine;
+        font-style: italic;
+        font-size: 50px;
+        background-position: right;
+        */
+        background-image: url(./nat1.jpg.jpg);
+       /* background-repeat:upset;*/
+        font-size: 50px; 
+        
+        background-position: right;
+       /* background-size: 200px;*/
+        background-attachment: scroll;
+    }
+    
+    div{
+        color: blue;
+        text-align: center;
+        font-size: 40px;
+        background-image: url(./R.jpg.jpg);
+        background-position: center;
+        
+    }  

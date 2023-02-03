@@ -1,0 +1,77 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+body{
+    border: 10px seagreen dashed;
+    text-align: center;
+    font-size: 30px;
+}
+h1{
+    background: c;
+}
+.a{
+    border-bottom: 2px;
+    border: 1px solid palevioletred;
+    background: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.b{
+    border: 3px 5px 7px 9px;
+    border-style: solid double dotted inset;
+    border-color: burlywood hotpink navy green;
+}
+.c{
+    border:  10px;
+    border-color: aquamarine pink red yellowgreen;
+    border-style: dashed dotted solid ;
+    
+}
+.d{
+    border-left: 5px double palevioletred; 
+    border-right: 5px double yellow ;
+    border-radius: 10px;
+    border-bottom: 6px double aqua;
+}
+.e{
+    border-top: 8px solid yellow;
+    border-radius: 20px;
+    border-bottom: 8px dashed powderblue;
+    border-left: 8px red inset;
+    border-radius: 20px;
+    border-right: 8px double pink;
+}
+p{
+    border: 20px;
+    border-left: 8px  solid rgb(181, 179, 245);
+    border-right: 8px  solid rgb(19, 12, 204);
+    background: darkturquoise;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: rosybrown;
+    border-radius: 5px;
+}
+.f{
+    border: 8px solid dashed;
+    color: aquamarine;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: blueviolet;
+}
+.g{
+    border: 8px solid dashed;
+    color: rgb(5, 39, 28);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(49, 226, 43);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 5px;
+    font-style: italic;
+}
+.h{
+    border: 5px 7px;
+    border-style: groove hidden;
+    border-color:yellow aqua;
+    text-transform: inherit;
+}

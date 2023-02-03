@@ -1,0 +1,76 @@
+body{
+  background: rgb(0, 195, 110);
+
+}
+
+
+.a{
+    color: aquamarine;
+    background: blue;
+    font-style: italic;
+   
+}
+#h1{
+  color: #2a6592;
+  background-color: rgb(247, 247, 65);
+  font-size:xx-large;
+  font-weight: 500;
+  font-style: inherit;
+  
+}
+#h2
+    {
+        color:rgb(208, 8, 8)!;background-color:#8e8ea7}
+.div1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f44900;
+  background:cornflowerblue
+}
+ .div2{
+  color: rgb(226, 134, 21);
+  font-size: 20px;
+  font-style: italic;
+  background: cyan;
+ }
+ .p1{
+  color: pink;
+  font-style: initial;
+ }
+ .p2{
+  color: rgb(130, 95, 160);
+  background: #f44900;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ #h3{
+  color: fuchsia;
+  font-weight: 800;
+  font-style: oblique;
+  font-size: 50px;
+  
+ }
+ #h4{
+  color: azure;
+ font-style: bold;
+  background: #3a445a;
+ }
+ #h5{
+  color: chartreuse;
+  background: brown;
+  font-family: monospace;
+  font-weight: 600;
+ }
+ #h6{
+  color: aqua;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  font-style: italic;
+ }
+
+ .list{
+  font-size: 20px;
+  background: rgb(255, 220, 242);
+  color: rgb(0, 255, 30);
+  font-family: monospace;
+ }
+
+

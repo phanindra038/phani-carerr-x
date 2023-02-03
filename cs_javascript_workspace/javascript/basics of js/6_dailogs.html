@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dailogs</title>
+</head>
+<body>
+    <script>
+// 1. alert//
+var a='above 18 + can use this site';
+ alert(a);
+
+//2.confirm //
+
+let b = confirm("do you want youtube link ");
+ if (b)  {
+    document.write("<a href= 'https://www.youtube.com/' target='blank' > youtube </a>")
+ }
+else {
+    document.write('404 Error <br>')
+}
+//3.prompt//
+let c= prompt("enter a numaber",10 )
+if(c<18){
+    console.log("not eligible for vote" );
+    document.write(" <br>not eligible  for vote");
+}
+else if ( c >18)
+{
+    console.log('eligible  for vote');
+    document.write(" <br> eligible  for vote");
+}
+else {
+    console.log('eligible  for vote') ;
+    console.log(' <br> eligible  for vote')
+}
+    </script>
+</body>
+</html>

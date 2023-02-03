@@ -1,0 +1,71 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+.a{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 127, 223);
+}
+.b{
+    text-align: end;
+    text-transform: lowercase;
+    text-decoration-style: double;
+    text-decoration-line: overline;
+    text-decoration-color: blue;
+}
+
+.c{
+    text-align: start;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+}
+.d{
+    text-align: center;
+    text-transform: uppercase;
+}
+.e{
+    text-align: right;
+    text-transform: lowercase;
+}
+.f{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: aqua;
+    text-transform: capitalize;
+}
+.g{
+    text-align: start;
+    text-shadow: 4px 5px 1px red;
+}
+
+.h{
+    text-align: center;
+    text-shadow: 09px -20px 2px blueviolet;
+    text-decoration: dotted;
+}
+
+p{
+    text-transform: uppercase;
+    color: aquamarine;
+   
+    text-shadow: 7px;
+    border: 5px solid red;
+    background: blue;
+    border-radius: 7px;
+}
+div{ 
+    padding: 10px;
+    text-transform: uppercase;
+    color: rgb(255, 193, 127);
+   text-align: center;
+    text-shadow: 7px 15px 3px rgb(0, 42, 255);
+    border: 5px solid red;
+    font-style: italic;
+    border-radius: 7px;
+}
+
+}

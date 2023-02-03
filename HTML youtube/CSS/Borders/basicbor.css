@@ -1,0 +1,37 @@
+*{
+    padding: 10px;
+    margin: 10px;
+    
+}
+body{
+    background-image: url(https://th.bing.com/th/id/R.d15b456aba80c4a523cf1f6d31dce7e8?rik=2ZT%2baXLkZYcxWg&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%2f01%2fnature-wallpaper-27.jpg&ehk=jIVFSOxLN%2fQKs4hEfZHNWAeXoeXkeEXooP%2fTy9Vwkek%3d&risl=&pid=ImgRaw&r=0);
+    overflow:scroll;
+    background-attachment: fixed;
+    border: 2px rebeccapurple solid;
+}
+
+h1{
+   border: 20px solid;
+   border-radius: 10%;
+   color: aquamarine;
+  background-color: brown;
+  border-bottom: blueviolet;
+}
+
+div{
+    border-style: dotted;
+   border: 5px dashed aquamarine;
+   color: yellow; background: crimson;
+}
+
+.a{
+    border: 7px darkmagenta dashed ;
+    border-style: groove;
+    color: rgb(153, 231, 255);
+}
+ p{
+    border-top-color: red;
+    background: darkgreen;
+    padding: 2px;
+    border-style: groove;
+ }
